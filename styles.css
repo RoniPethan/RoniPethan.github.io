@@ -1,0 +1,89 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: black;
+}
+.navbar {
+}
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+    background-color: rgb(255, 0, 128);
+}
+.li-navbar {
+    list-style-type: none;
+    padding: 25px;
+    margin: 6px;
+    font-size: 16px;
+}
+.li-navbar:hover {
+    background-color: black;
+    block-size: 0; 
+    transition: .2s ease-in-out;
+    border-radius: 10px;
+}
+.a-navbar {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+    .box2 {
+    background-color: rgb(255, 0, 128);
+    border: 5px solid rgb(255, 255, 255);
+    height: 280px;
+    width: 28%;
+    align-items: center;
+}
+h2 {
+    background-color: rgb(255, 0, 128);
+    text-align: center;
+    color: white;
+    margin: 15px;
+    font-size: 26px;
+}
+form {
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+.input {
+    margin: 12px;
+    height: 25px;
+    width: 70%;
+}
+.tombol {
+    background-color: rgb(255, 0, 128);
+    color: aliceblue;
+    width: 65%;
+    height: 30px;
+    margin: 30px;
+}
+
+
+.container-footer {
+    background-color: rgb(255, 0, 128);
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 10vh;
+}
+.a-footer {
+    color: white;
+    font-size:20px;
+}
